@@ -59,7 +59,7 @@ class Pet:
 
     def get_status(self):
         """This function prints the current state of the pet"""
-        print("Current status of the pet:")
+        print(f"{self.name}'s current status:")
         print(f"Pet name: {self.name}")
         print(f"Hunger: {self.hunger}")
         print(f"Energy: {self.energy}")
